@@ -8,7 +8,7 @@ initTiltEffect();
 const phrases = [
   "Software Developer...",
   "Signal Processing Engineer...",
-  "Python + JS builder...",
+  "RISC-V Designer...",
   "AI Tinkerer...",
   "Student...",
 ];

@@ -63,15 +63,35 @@
               <p class="about-wrapper__info-text">
                 In my free time, I enjoy hanging out with friends, playing basketball, working out, and playing video games!
               </p>          
-<!--              <span class="d-flex mt-3">
+              <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/Guneev_Dhillon_Resume_Software.pdf"
                 >
-                  View Resume
-                </a> -->
+                  View Resume (Software)
+                </a>
+              </span>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/Guneev_Dhillon_Resume_Hardware.pdf"
+                >
+                  View Resume (Hardware)
+                </a>
+              </span>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://www.linkedin.com/in/guneev-dhillon"
+                >
+                  LinkedIn
+                </a>
               </span>
             </div>
           </div>
@@ -97,12 +117,7 @@
             </div>
             <div>
               <p class="mb-4">
-                Working at MindTap (part of UBC's Multifaceted Innovations in Neurotechnology), I am building an EEG neural interface that turns brain signals into smartphone commands. 
-                I work on signal processing and software: band-pass filtering to isolate target bands, noise cleanup, simple 
-                feature extraction (amplitude, band power), and threshold-based classification to trigger actions. I am also 
-                co-developing a small calibration app that onboards new users through a game and saves per-user profiles. 
-                This project lets me work across hardware and software to deliver an end to end system. I presented our 
-                progress at MURC (a design contest), and we were recognized and published by the Canadian Journal of Undergraduate Research.
+                At MindTap, part of UBC’s Multifaceted Innovations in Neurotechnology, I work on an EEG-based neural interface that translates brain signals into smartphone commands. I own the signal-processing pipeline, including band-pass filtering, noise mitigation, feature extraction, and threshold-based classification for real-time control. I am currently training a machine learning model to improve command accuracy and robustness across users as we move beyond fixed thresholds. This work spans raw sensor data to deployable software, and was presented at MURC, where the project was recognized and published in the Canadian Journal of Undergraduate Research.
               </p>
             </div>
             <a
@@ -148,10 +163,7 @@
             </div>
             <div>
               <p class="mb-4">
-                I led and mentored 300+ students, designed and delivered 
-                lessons, and built projects in C#, JavaScript, Python, and Arduino. I reviewed code, debugged issues in real 
-                time, and documented clear guides to reinforce clean patterns. I also founded a chess club, developed a 
-                beginner-to-intermediate curriculum, and coached 50+ students while organizing regular sessions.
+                I led and mentored 150+ students, designed and delivered lessons, and built projects in C#, JavaScript, Python and Arduino. I reviewed code, debugged issues in real time, and documented clear guides to reinforce clean patterns. I also founded a chess club, developed a beginner-to-intermediate curriculum, and coached 50+ students while organizing regular sessions.
               </p>
             </div>
             <a
@@ -190,7 +202,69 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Mangify | API • TypeScript • NLP</h3>
+                <h3 class="project-wrapper__text-title">
+                  NotiFlow |
+                  <span style="font-weight: normal;">
+                    Python, Flask, React, REST APIs, Docker, DigitalOcean, Git
+                  </span>
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    NotiFlow is a full-stack system I built to aggregate Canvas assignments, announcements, and exam schedules into a single, reliable iCalendar feed for students. I designed backend services in Python and Flask to fetch, normalize, and reconcile data across multiple APIs and scraped university sources, handling inconsistent formats and missing data. The application is containerized with Docker and is actively being deployed to a Linux-based DigitalOcean server, with attention to environment configuration, service orchestration, and production runtime behavior. This project emphasized end-to-end ownership of a data pipeline, disciplined interface design, and debugging across service boundaries in a production-oriented setup.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/lucastidy/NotiFlow"
+                >
+                  Source Code
+                </a>
+                <!--
+                <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/ProductXTeam28/Mangify"
+              >
+                Source Code
+              </a>
+            -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/lucastidy/NotiFlow" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="../images/notiflow.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Mangify |
+                  <span style="font-weight: normal;">
+                    Python, TypeScript, APIs, NLP, HTML/CSS, Figma
+                  </span>
+                </h3>
                 <div>
                   <p class="mb-4">
                     Shipped a web app that turns prose into manga panels using OpenAI image APIs. Implemented scene extraction, prompt chaining, and panel layout; handled rate limits and content filters. Developed during UBC's ProductX Hackathon.
@@ -240,10 +314,72 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Transaction Analyzer | Python</h3>
+                <h3 class="project-wrapper__text-title">
+                  Neural Network Name Generator  |
+                  <span style="font-weight: normal;">
+                    PyTorch, NumPy, Matplotlib, Data Visualization, Git
+                  </span>
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Payment Analyzer in Python: read CSV statements, normalize vendors, and compute credit/debit totals and net per vendor or month. Implemented grouping, sorting, date filters, and one-click export with pandas + Streamlit to speed up reconciliation.
+                    Neural Network Name Generator is a self-directed project where I implemented a character-level neural network from scratch to generate plausible names. Following Andrej Karpathy’s tutorial as a conceptual guide, I manually derived and coded the forward pass, backpropagation, and softmax-based training loop using NumPy to understand the underlying mathematics rather than relying on abstractions. I trained the model on name datasets, debugged gradient flow and convergence issues, and experimented with architectural and hyperparameter changes to improve output quality. After validating the core implementation, I reimplemented the model in PyTorch to compare performance, training stability, and development tradeoffs between low-level and framework-based approaches.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/GuneevDhillon/nn-zero-to-hero"
+                >
+                  Source Code
+                </a>
+                <!--
+                <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/ProductXTeam28/Mangify"
+              >
+                Source Code
+              </a>
+            -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/GuneevDhillon/nn-zero-to-hero" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="../images/nn_name_generatoion_output.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Transaction Analyzer |
+                  <span style="font-weight: normal;">
+                    Python, Pandas, Streamlit, Git
+                  </span>
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Transaction Analyzer is a Python-based tool I built to analyze personal financial statements by parsing CSV exports and normalizing vendor data. The system groups transactions by vendor and time period, computes credit and debit totals, and produces net summaries to surface spending patterns. I implemented filtering, sorting, and aggregation logic using pandas, along with one-click export for downstream use. This redcuses manual bookkeeping time by 90%.
                   </p>
                 </div>
                 <a
@@ -290,10 +426,15 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Catcher Game | Unity • C#</h3>
+                <h3 class="project-wrapper__text-title">
+                  Catcher Game |
+                  <span style="font-weight: normal;">
+                    Unity, C#, 2D Physics, Game State Management, Prefabs, UI Systems
+                  </span>
+                </h3>
                 <div>
                   <p class="mb-4">
-                    After building a Flappy Bird clone, I built a Unity catcher game. Implemented a spawner, 2D physics, input handling, collision-based scoring, and simple UI. Single game mode; focused on clean C# scripts, prefabs, and straightforward state management.
+                    Catcher Game (Brainrot Game) is a 2D Unity game I built in C# to explore core gameplay systems and engine-level workflows. I implemented an object spawner, real-time input handling, 2D physics interactions, and collision-based scoring, along with a UI for game state feedback. The project emphasizes clean C# scripts, reusable prefabs, and straightforward state management within Unity’s component model. This served as a focused exercise in building a complete, playable game loop rather than isolated mechanics, emphasizing modular design and good coding-practice to build a maintainable system.
                   </p>
                 </div>
                 <a
@@ -350,7 +491,7 @@
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
+            href="mailto:guneevd@student.ubc.ca"
             >Email</a
           >
         </div>
