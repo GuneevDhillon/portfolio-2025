@@ -1,3 +1,4 @@
-# Guneev Dhillon's Portfolio Website
+# Guneev Dhillon – Portfolio Website
 
-### This is the source code for my portfolio website where I highlight my experiences, projects, documents, and interests.
+Source code for my personal portfolio website, highlighting selected projects, experience, and technical interests.  
+Deployed at: https://guneevdhillon.com
