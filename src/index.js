@@ -10,7 +10,7 @@ const phrases = [
   "Signal Processing Engineer...",
   "RISC-V Designer...",
   "AI Tinkerer...",
-  "Student...",
+  "Computer Engineering Student...",
 ];
 
 const el = document.getElementById("typewriter");
